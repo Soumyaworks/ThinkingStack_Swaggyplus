@@ -1,0 +1,53 @@
+/* .form {
+    background-color: bisque;
+    border-radius: 5%;
+    border: 3px solid black;
+} */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+button {
+    margin-bottom: 5%;
+}
+
+.form {
+    background: url('/assets/cart5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 50%; */
+    padding: 6%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 18px groove cadetblue;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#name125 {
+    font-size: 41px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+
+label {
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+input {
+    border: 1.5px dashed blue;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+}
+
+#container {
+    background: yellowgreen;
+}

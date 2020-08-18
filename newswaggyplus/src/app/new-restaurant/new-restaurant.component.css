@@ -1,0 +1,111 @@
+.col-sm-71 {
+    background: url('/assets/cart5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: 32px solid #1b8c9e;
+    border-right: 32px solid #1b8c9e;
+    width: 64%;
+    margin-left: -122px;
+    margin-right: 92px;
+    /* border: 2px groove black; */
+    /* border: 22px groove lightgrey; */
+}
+
+#name789 {
+    font-size: 64px;
+    /* font-family: 'Chonburi', cursive; */
+    font-family: 'Merriweather', serif;
+    color: #6e5a12;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 13px;
+    border-radius: 86px;
+    /* margin-left: 25px; */
+    /* margin: 50px; */
+}
+
+.col-sm-3 {
+    /* #e8e98e6b */
+    background-color: #e5e5e4;
+    margin-bottom: 2%;
+    /* border: 2px solid black; */
+    /* width: 50px; */
+    padding-left: 21px;
+    /* border-radius: 2%; */
+}
+
+
+/* #list5 {
+    border: 2px solid black;
+    border: 2px solid black;
+    background: darkred;
+    margin-left: 89px;
+} */
+
+img {
+    margin-top: 3%;
+}
+
+.item {
+    margin-top: 60%;
+}
+
+#btn123 {
+    font-size: 22px;
+    background: green;
+    width: 155.5%;
+    border: 5px solid #215d21;
+    margin-left: 0px;
+    border-radius: 0px;
+    /* height: 60px; */
+    padding: 10px;
+    margin-top: -7px;
+}
+
+.price {
+    /* border: 3px groove grey; */
+    /* border-radius: 5%; */
+    width: 155%;
+    background: url('/assets/cart5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: 32px solid #1b8c9e;
+    border-right: 32px solid #1b8c9e;
+    padding-top: 0.8px;
+}
+
+#cname {
+    font-size: 64px;
+    /* font-family: 'Chonburi', cursive; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'PT Serif Caption', serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Judson', serif;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    color: #6e5a12;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 13px;
+    border-radius: 86px;
+}
+
+#list1 {
+    /* border: 2px solid black; */
+    border-radius: 2px;
+    /* background: grey; */
+}
+
+#list1 {
+    /* border: 2px solid black; */
+    border-radius: 2px;
+    /* background: grey; */
+}
+
+#list3 {
+    border: 2px solid green;
+    border-radius: 2px;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+}

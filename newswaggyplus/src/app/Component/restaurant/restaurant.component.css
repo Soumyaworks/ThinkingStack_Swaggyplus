@@ -1,0 +1,151 @@
+    h2 {
+        font-size: 50px;
+        font-family: Impact, Charcoal, sans-serif;
+        color: rgb(1, 4, 14);
+        font-style: italic
+    }
+
+    .col-sm-3:hover {
+        background-color: rgb(179, 245, 179);
+        border: 3px solid black;
+        row-gap: 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        transition: 0.6s ease;
+    }
+
+    .col-sm-3 {
+        background-color: bisque;
+        border-radius: 10%;
+        width: 100%;
+        row-gap: 5px;
+        column-gap: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #name123 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 80px;
+        color: greenyellow;
+        margin-bottom: 30px;
+    }
+
+    #cont98 {
+        border: 3px solid yellowgreen;
+        border-radius: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 17px;
+    }
+
+    #serve {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px;
+        color: orange;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-bottom: 3px solid orange;
+        border-radius: 5px;
+        margin-bottom: 17px;
+    }
+
+    #dcrd {
+        background: url('/assets/dish2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border: 2px solid blue;
+    border-radius: 2px; */
+        border: 10px groove orange;
+        /* border-radius: -5px; */
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 121px;
+        border-bottom-right-radius: 121px;
+    }
+
+    #dname {
+        color: brown;
+        font-size: 29px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    #dprice {
+        color: brown;
+        font-size: 15px;
+        margin-top: -23px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    #dabout {
+        font-size: 17.5px;
+        color: black;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    #dvegimg {
+        margin-bottom: 1px;
+    }
+
+    #dveg {
+        text-align: center;
+        background-color: green;
+        margin: 5px;
+        font-size: 15px;
+        color: white;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+    }
+
+    #dnonimg {
+        margin-bottom: 1px;
+    }
+
+    #dnon {
+        text-align: center;
+        background-color: red;
+        margin: 5px;
+        font-size: 15px;
+        color: white;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+    }
+
+    #ddil {
+        margin-top: 8px;
+        font-size: 19px;
+        color: #8b2121;
+    }
+
+    #dbtn1 {
+        border-radius: 37px;
+        color: white;
+        background-color: #8b6218;
+        border: 3px solid #8b6218;
+        font-size: 19px;
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    #dbtn2 {
+        border-radius: 37px;
+        color: white;
+        background-color: #8b6218;
+        border: 3px solid #8b6218;
+        font-size: 19px;
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }

@@ -1,0 +1,93 @@
+<div class="cont456" style="display: flex; flex-direction: column; padding-left: 390px;
+padding-right: 290px;
+padding-top: 35px;
+padding-bottom: 36px; flex-wrap: wrap;justify-content: space-between; ">
+
+
+    <div class="form11">
+        <div class="container11">
+            <h3 id="resname">Restaurant Details</h3>
+            <hr>
+            <!-- <label id="nameres">Name:  </label> -->
+            <input type="text" class="form-control" name="restaurentName" placeholder="Enter Restaurant Name" id="name" [(ngModel)]="restaurent.restaurentName" required>
+            <br>
+            <!-- <label id="adressres">Address:  </label> -->
+            <input type="text" class="form-control" name="restaurentAddress" placeholder="Enter Restaurant Address" id="address" [(ngModel)]="restaurent.restaurentAdress" required>
+            <br>
+            <!-- <label id="ratingres">Rating:  </label> -->
+            <input type="number" class="form-control" name="restaurentRating" placeholder="Enter Restaurant Rating" id="rating" [(ngModel)]="restaurent.restaurentRating" required>
+
+            <label id="activeres">Is Restaurant Active?  </label><br>
+            <input type="radio" name="restaurentIsActive" id="isActive" value="true" (change)="radiochangeHandeller($event)">
+            <span style="margin-right: 35px;font-family: 'Merriweather', serif;  ">True</span>
+            <input type="radio" name="restaurentIsActive" id="isActive" value="false" (change)="radiochangeHandeller($event)">
+            <span style="margin-right: 35px;font-family: 'Merriweather', serif;  ">False</span>
+            <br>
+
+        </div>
+    </div>
+    <!-- </div> -->
+
+
+
+
+
+
+    <div class="form22">
+        <div class="container22">
+
+            <h3 id="resname"> Dish Details</h3>
+            <hr>
+            <!-- <label>Name:  </label> -->
+            <input type="text" class="form-control" name="dishtName" id="dishtName" placeholder="Enter dish name" [(ngModel)]="dish.dishName" required>
+            <br>
+            <!-- <label>shortDescription:  </label> -->
+            <input type="text" class="form-control" name="shortDescription" id="shortDescription" placeholder="Short-Description" [(ngModel)]="dish.shortDescription" required>
+            <br>
+
+            <input type="number" class="form-control" name="price" id="price" placeholder="Enter dish price " [(ngModel)]="dish.price" required>
+            <br>
+
+            <!-- <label>imageUrl:  </label> -->
+            <input type="text" class="form-control" name="imageUrl" id="imageUrl" placeholder="Enter image url " [(ngModel)]="dish.imageUrl" required>
+
+            <!-- <label>price:  </label> -->
+
+            <label>Is Dish Veg? </label><br>
+            <input type="radio" name="isVeg" id="isVeg" value="true" (change)="radiochangeHandeller1($event)"><span style="    margin-right: 63px;
+              margin-left: 8px;     font-size: 17px;
+">True</span>
+            <input type="radio" name="isVeg" id="isVeg" value="false" (change)="radiochangeHandeller1($event)"><span style="    margin-right: 63px;
+              margin-left: 8px;     font-size: 17px;
+">False</span>
+            <!-- <divclass=> -->
+            <!-- <div> -->
+            <br>
+
+            <label>Is Free Delivery Applicable?  </label><br>
+            <input type="radio" name="freeDelivery" id="freeDelivery" value="true" (change)="radiochangeHandeller2($event)"><span style="margin-right: 35px;font-family: 'Merriweather', serif;  ">True</span>
+            <input type="radio" name="freeDelivery" id="freeDelivery" value="false" (change)="radiochangeHandeller2($event)"> <span style="margin-right: 35px;font-family: 'Merriweather', serif;  ">False</span>
+
+
+
+
+
+
+            <div align="center">
+
+                <button class="btn btn-primary my-5" style="background: #183b7a;font-size: 20px;     padding-bottom: 9px;
+                " (click)="addhandeller()">Update</button>
+            </div>
+            <!-- </div> -->
+            <!-- </input> -->
+            <!-- </d> -->
+            <!-- </input> -->
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- </input t> -->

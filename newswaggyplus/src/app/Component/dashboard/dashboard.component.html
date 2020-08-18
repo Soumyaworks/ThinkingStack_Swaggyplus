@@ -1,0 +1,126 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <div style="background-color: rgba(0, 0, 0, 0.555);">
+    <div class="container" align="center"><br>
+        <h1 style="font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+    font-style: normal;">Welcome To Deliciousness</h1>
+    </div>
+</div> -->
+
+<div class="jumbotron " id="back">
+    <div class="container">
+
+        <span class="display-3" id="swaggy">SwaggyPlus</span>
+        <br>
+        <br>
+        <span id="item1">Order Food Online</span>
+        <br>
+
+        <span id="item2"> Best restaurants for delivering to your doorstep </span>
+
+        <p>
+            <a class="btn btn-primary btn-lg" href="#" role="button"></a>
+        </p>
+    </div>
+</div>
+
+
+
+
+<div class="name" style="font-family: 'Judson', serif; color: #ddef27;  ">
+    Active Restaurants
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="container12">
+
+
+    <hr>
+    <div class="row1" *ngFor="let restaurent of restaurents">
+
+        <div class="col1-md-61" style="">
+            <div class="outer" style="">
+                <div class="col1 p-4 d-flex flex-column position-static" id="card789">
+                    <strong class="d-inline-block mb-2 text-success">   <span *ngIf="restaurent.isActive"  style="font-size: 20px;"  > Opened *    </span>
+                <span *ngIf="!restaurent.isActive"  style="color: red;  font-size: 20px;  "  >  Closed *    </span>       </strong>
+
+
+
+                    <h3 class="mb-0" style="font-size: 40px;">{{restaurent.restaurentName}} </h3>
+
+
+
+
+                    <div class="mb--10 my-2 text-muted">
+
+                        <div class="z30xqq-1 vjhTK sc-1s0saks-5 SwbsM" style="null;;">
+                            <div class="z30xqq-2 fQWgrL" style="null;;">
+                                <i class="rbbb40-1 MxLSp z30xqq-0 gUXgQo" size="14" color="#8b0000" style="null;;"><svg xmlns="http://www.w3.org/2000/svg" fill="#8b0000" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title-StarFill icon-svg-desc-StarFill" role="img" class="rbbb40-0 hoSSCx" style="null;;"><linearGradient id="ckaic8dvs0gsm3b6l3wcv2seh" x1="0" x2="100%" y1="0" y2="0" style="null;;"><stop offset="0" stop-color="#8b0000" style="null;;"></stop><stop offset="100%" stop-color="#8b0000" style="null;;"></stop></linearGradient><title id="icon-svg-title-StarFill" style="null;;">Star Fill icon</title><desc id="icon-svg-desc-StarFill" style="null;;">It is an icon with title Star Fill</desc><title style="null;;">star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z" fill="url(#ckaic8dvs0gsm3b6l3wcv2seh)" style="null;;"></path></svg></i>
+                                <i class="rbbb40-1 MxLSp z30xqq-0 gUXgQo" size="14" color="#8b0000" style="null;;"><svg xmlns="http://www.w3.org/2000/svg" fill="#f35214" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title-StarFill icon-svg-desc-StarFill" role="img" class="rbbb40-0 hoSSCx" style="null;;"><linearGradient id="ckaic8dvr0gsk3b6lolvowct2" x1="0" x2="100%" y1="0" y2="0" style="null;;"><stop offset="0" stop-color="#8b0000" style="null;;"></stop><stop offset="100%" stop-color="#8b0000" style="null;;"></stop></linearGradient><title id="icon-svg-title-StarFill" style="null;;">Star Fill icon</title><desc id="icon-svg-desc-StarFill" style="null;;">It is an icon with title Star Fill</desc><title style="null;;">star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z" fill="url(#ckaic8dvr0gsk3b6lolvowct2)" style="null;;"></path></svg></i>
+                                <i class="rbbb40-1 MxLSp z30xqq-0 gUXgQo" size="14" color="#8b0000" style="null;;"><svg xmlns="http://www.w3.org/2000/svg" fill="#8b0000" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title-StarFill icon-svg-desc-StarFill" role="img" class="rbbb40-0 hoSSCx" style="null;;"><linearGradient id="ckaic8dvs0gsl3b6l0v8bdcld" x1="0" x2="100%" y1="0" y2="0" style="null;;"><stop offset="0" stop-color="#8b0000" style="null;;"></stop><stop offset="100%" stop-color="#8b0000" style="null;;"></stop></linearGradient><title id="icon-svg-title-StarFill" style="null;;">Star Fill icon</title><desc id="icon-svg-desc-StarFill" style="null;;">It is an icon with title Star Fill</desc><title style="null;;">star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z" fill="url(#ckaic8dvs0gsl3b6l0v8bdcld)" style="null;;"></path></svg></i>
+                                <i class="rbbb40-1 MxLSp z30xqq-0 gUXgQo" size="14" color="#8b0000" style="null;;"><svg xmlns="http://www.w3.org/2000/svg" fill="#8b0000" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title-StarFill icon-svg-desc-StarFill" role="img" class="rbbb40-0 hoSSCx" style="null;;"><linearGradient id="ckaic8dvr0gsj3b6l47h8dvr6" x1="0" x2="100%" y1="0" y2="0" style="null;;"><stop offset="0" stop-color="#8b0000" style="null;;"></stop><stop offset="100%" stop-color="#F3C117" style="null;;"></stop></linearGradient><title id="icon-svg-title-StarFill" style="null;;">Star Fill icon</title><desc id="icon-svg-desc-StarFill" style="null;;">It is an icon with title Star Fill</desc><title style="null;;">star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z" fill="url(#ckaic8dvr0gsj3b6l47h8dvr6)" style="null;;"></path></svg></i>
+                                <i class="rbbb40-1 MxLSp z30xqq-0 gUXgQo" size="14" color="#E8E8E8" style="null;;"><svg xmlns="http://www.w3.org/2000/svg" fill="#E8E8E8" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title-StarFill icon-svg-desc-StarFill" role="img" class="rbbb40-0 hoSSCx" style="null;;"><linearGradient id="ckaic8dvs0gsn3b6lk4he8vh3" x1="0" x2="100%" y1="0" y2="0" style="null;;"><stop offset="0" stop-color="#E8E8E8" style="null;;"></stop><stop offset="100%" stop-color="#E8E8E8" style="null;;"></stop></linearGradient><title id="icon-svg-title-StarFill" style="null;;">Star Fill icon</title><desc id="icon-svg-desc-StarFill" style="null;;">It is an icon with title Star Fill</desc><title style="null;;">star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z" fill="url(#ckaic8dvs0gsn3b6lk4he8vh3)" style="null;;"></path></svg></i>
+                            </div><span class="z30xqq-3 Bjokm" style="null;;" style="font-size: 16px;">   {{restaurent.restaurentRating}}  votes</span></div>
+
+
+
+                    </div>
+
+
+
+
+
+                    <p class="mb1-auto1" style="border-bottom: 3px dashed black;      font-size: 19px;
+                    padding-bottom: 20px;
+                    "><b>Address :</b> {{restaurent.restaurentAdress}} .
+                    </p>
+
+                    <!-- <button class="btn btn-primary" style="    background: #6a1515;
+                    " (click)="menu(restaurent.restaurentId,restaurent.restaurentName)">EDIT MENU   </button>&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-info" style="    background: #2a4298;
+                    " (click)="EditRestaurent(restaurent.restaurentId,restaurent.restaurentName)"> ADD DISH    </button>
+ -->
+
+
+                    <button id="btn123" style="margin-bottom: 0%; background-color: green;  color: white;  " *ngIf="restaurent.isActive" class="btn btn-danger1" (click)="menu(restaurent.restaurentId,restaurent.restaurentName)">Order Now >>  </button>
+
+                    <p *ngIf="restaurent.isActive" style="color: green; text-align: center;margin-top: 12px;">Available</p>
+                    <button style="margin-bottom: 0%; background-color: red;  color: white;  " *ngIf="!restaurent.isActive" class="btn btn-primary1" (click)="closeAlert()">Order Online</button>
+                    <p *ngIf="!restaurent.isActive" style="color: red;  text-align: center;margin-top: 12px;   "> Unavailable</p>
+
+
+
+
+
+
+                    <!-- <hr> -->
+                </div>
+
+
+
+            </div>
+            <br>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>

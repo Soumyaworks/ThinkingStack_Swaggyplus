@@ -1,0 +1,107 @@
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-71">
+            <h3 id="cname">My Cart</h3>
+            <hr>
+
+            <div class="row" id="list1" *ngFor="let dish of dishes">
+
+
+
+
+
+                <div class="colm-sm-3" id="list2" style="margin-left: 11%;
+                border-left: 10px solid black;
+                border-top-left-radius: 27px;
+                padding-left: 26px;
+                border-bottom-left-radius: 27px;   background-color: #e5e5e4;    margin-bottom: 14px;
+   width: 32%;
+ ">
+                    <img src={{dish.imageUrl}} alt={{dish.dishName}} style="width: 128px;
+                    height: 128px;
+                    border: 1px dotted black;
+                    border-radius: 74px;">
+                </div>
+                <div class="col-sm-3">
+                    <h6 style="font-size: 31px;
+                    color: brown;
+                    font-family: 'Judson', serif;     margin-top: 18px;"> {{dish.dishName}}</h6>
+
+                    <!-- <h5 style="font-size: 25px;
+                    color: brown;
+                    font-family: 'Abril Fatface', cursive;">price</h5> -->
+                    <h3 style="font-size: 24px;
+                    color: brown;
+                    font-family: 'Judson', serif;">Cost: Rs.{{dish.price}}</h3>
+                </div>
+                <div class="col-sm-3">
+                    <button style="float: right;
+                    margin-top: 59%;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    border: 2px outset indianred;" class="btn btn-danger" (click)="deleteCart(dish.dishId)">Remove</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="col-sm-4" id="list5">
+            <div class="price" id="list6">
+                <p id="name789" style="font-size: 44px;
+                 font-family: 'Judson', serif;
+                color: #6e5a12;
+                border: 2px solid black;
+                text-align: center;
+                margin-top: 13px;
+                border-radius: 86px;    margin: 13px;
+
+">Bill:</p>
+                <hr>
+                <h5>
+                    <div *ngFor="let dish of dishes">
+                        <div class="row1" style="display: flex; justify-content: space-around;">
+                            <div class="col1-sm-2" style="font-size: 29px;
+                            color: brown;
+                            border-left: 10px solid brown;
+                            padding-left: 22px;
+                            margin-bottom: 35px;
+                            width: 58%;
+                            font-family: 'Judson', serif;"> {{dish.dishName}}:</div>
+                            <div class="col1-sm-2" style="font-size: 29px;
+                            color: brown;
+
+                            font-family: 'Judson', serif;">Rs.{{dish.price}}</div>
+                        </div>
+                    </div>
+                </h5>
+                <hr>
+                <h5>
+                    <div class="row11" style="display: flex; justify-content: space-around; border-top: 2px solid black;      margin-top: -16px;
+                    padding-top: 18px;">
+                        <div class="col2-sm-2" style="font-size: 29px;
+                        color: black;
+                        letter-spacing: 1.5px;
+                        padding-left: 8px;
+                        margin-bottom: 19px;
+                        width: 58%;
+                        font-family: 'Abril Fatface', cursive;"> Totalprice:</div>
+                        <div class="col2-sm-2" style="font-size: 29px;
+                        color: black;
+                        letter-spacing: 1px;
+                        font-family: 'Abril Fatface', cursive;">Rs.{{totalPrice}}</div>
+                    </div>
+                </h5>
+                <hr>
+
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm" style="font-family: 'Judson', serif;" id="btn123" (click)="placeOrder()">Place Your Order</button>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

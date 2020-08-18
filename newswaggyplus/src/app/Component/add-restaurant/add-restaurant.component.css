@@ -1,0 +1,97 @@
+.form11 {
+    background: url('/assets/cart5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 91%; */
+    /* border: 17px groove #896016; */
+    border: 18px groove cadetblue;
+    margin-bottom: 20px;
+    /* width: 98%; */
+}
+
+.form22 {
+    background: url('/assets/cart5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 91%; */
+    /* width: 113%; */
+    /* border: 17px groove #896016; */
+    border: 18px groove cadetblue;
+}
+
+.container11 {
+    /* border: 2px solid olivedrab; */
+    /* border-radius: 10px; */
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px; */
+    padding-left: 72px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.container22 {
+    /* border: 2px solid olivedrab; */
+    /* border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px; */
+    padding-left: 72px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#resname {
+    /* font-family: 'DM Serif Text', serif; */
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    letter-spacing: 1.8px;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px dashed black;
+    padding-bottom: 18px;
+    padding-top: 13px;
+}
+
+label {
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+input {
+    border: 2px dotted blue;
+    border-radius: 0px;
+    margin-bottom: 36px;
+    /* background: lightcoral; */
+    color: black;
+    /* font-family: 'DM Serif Text', serif; */
+    /* letter-spacing: 1.8px; */
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.6;
+}
+
+#activeres,
+label,
+#isActive,
+#isVeg,
+#freeDelivery {
+    font-size: 23px;
+}
+
+#isActive,
+#isVeg,
+#freeDelivery {
+    padding-left: 10px;
+    font-size: 17px;
+}

@@ -1,0 +1,27 @@
+.col-sm-6 {
+    /* background-color: rgb(243, 243, 174) ;
+    border: 2px solid rgb(65, 43, 2);
+    border-radius: 5%; */
+    background: url('/assets/user3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 22px solid rgb(65, 43, 2); */
+    border: 50px groove orange;
+    border-radius: 100%;
+    padding: 47px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: rgb(77, 36, 3);
+    font-weight: bold;
+}
+
+.in {
+    border-radius: 30%;
+}
+
+#outer2 {
+    margin-left: 480px;
+}

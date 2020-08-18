@@ -1,0 +1,25 @@
+<h1>
+    {{alert}}</h1>
+<div class="container" id="outer2">
+    <div class="container" align="center">
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <br>
+                <h3>User Sign Up</h3>
+                <br>
+                <br>
+
+                <input style="width:80%; " placeholder="Enter user id" type="text" class="form-control" [(ngModel)]="user.name" id="userId" name="user" style="border: 1.5px outset black;"> <br>
+                <input style="width:98%; " placeholder="Enter password" type="password" class="form-control" [(ngModel)]="user.password" id="pass" name="inppass" style="border: 1.5px outset black;"><br>
+                <br><button style="background-color: rgb(77, 3, 3);" class="btn btn-primary" (click)="registrationHandle()">Sign Up</button><br>
+                <hr> Already have an account?
+                <a routerLink="/user/login"> <b>Click Here</b> </a>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

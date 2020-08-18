@@ -1,0 +1,24 @@
+<div class="container" style="margin-left: 480px;">
+    <div class="container" align="center">
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <br>
+                <br>
+                <h3>Admin Login</h3>
+                <hr>
+                <br>
+
+                <br>
+                <input style="width:80%;" class="in" placeholder="Enter admin id" type="text" class="form-control" [(ngModel)]="admin.adminId" id="userId" name="user" style="border: 1.5px outset black;"> <br>
+                <input style="width:98%;" class="in" placeholder="Enter password" type="password" class="form-control" [(ngModel)]="admin.password" id="pass" name="inppass" style="border: 1.5px outset black;"><br>
+                <br><button style="background-color: rgb(77, 3, 3);" class="btn btn-primary" (click)="loginHandle()">Login</button><br>
+                <hr> Don't have an account?
+                <a routerLink="/admin/registration"> <b>Click Here</b> </a>
+                <br><br>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>

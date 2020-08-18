@@ -1,0 +1,35 @@
+<br><br>
+<div class="container" align="center">
+    <div class="col-sm-6">
+        <h4 id="name125">Edit Dish </h4>
+        <hr>
+        <label style="">Name  </label>
+        <input type="text" class="form-control" name="dishtName" id="dishtName" [(ngModel)]="dish.dishName" required>
+        <br>
+        <label>Short-Description   </label>
+        <input type="text" class="form-control" name="shortDescription" id="shortDescription" [(ngModel)]="dish.shortDescription" required>
+        <br>
+        <label>Image-Url   </label>
+        <input type="text" class="form-control" name="imageUrl" id="imageUrl" [(ngModel)]="dish.imageUrl" required>
+        <br>
+        <label>Price </label>
+        <input type="number" class="form-control" name="price" id="price" [(ngModel)]="dish.price" required>
+        <br>
+        <label>Is Veg ?   </label><br>
+        <input type="radio" name="isVeg" id="isVeg" value="true" style="margin-right: 5px;" (change)="radiochangeHandeller1($event)"> <span style="margin-right: 35px;font-family: 'Merriweather', serif;  ">True</span>
+        <input type="radio" name="isVeg" id="isVeg" value="false" style="margin-right: 5px;" (change)="radiochangeHandeller1($event)"><span style="margin-right: 25px;  font-family: 'Merriweather', serif;   ">False</span>
+        <br>
+        <label>Is Free Delivery Applicable ?   </label><br>
+        <input type="radio" name="freeDelivery" id="freeDelivery" value="true" style="margin-right: 5px;" (change)="radiochangeHandeller2($event)"><span style="margin-right: 35px;  font-family: 'Merriweather', serif;  ">True</span>
+        <input type="radio" name="freeDelivery" id="freeDelivery" value="false" style="margin-right: 5px;" (change)="radiochangeHandeller2($event)"><span style="margin-right: 25px;  font-family: 'Merriweather', serif;   ">False</span>
+        <br>
+        <br>
+        <hr>
+        <div align="center">
+            <button class="btn btn-danger1" style="background: midnightblue;  font-family: 'Merriweather', serif;padding: 12px;
+
+          color: white;" (click)="updateHandel()">Update   </button><br></div>
+        <br>
+    </div>
+</div>
+<br>
